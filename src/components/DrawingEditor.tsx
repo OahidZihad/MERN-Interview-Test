@@ -112,6 +112,7 @@ const DrawingEditor: React.FC = () => {
     event?: React.SyntheticEvent | Event,
     reason?: string
   ) => {
+    console.log("🚀 ~ event:", event);
     if (reason === "clickaway") {
       return;
     }
